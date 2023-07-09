@@ -32,7 +32,7 @@ pip install -r requirements.txt
 We select some important files for detailed description.
 
 |-- checkpoints/ # the directory to save checkpoints
-|-- dataset/
+	|-- dataset/
     |-- data/ # the original data
     |-- train.txt # the original data with label
     |-- test_without_label.txt # the original test data without label
@@ -57,12 +57,7 @@ python main.py --do_test
 ```
 ## Results
 The results are shown in this Table(Accuracy):
-
-<<<<<<< HEAD
 | fuse-Strategy             | Only Text | Only Image | Multi-modal |
-=======
-| fuse-Strategy              | Only Text | Only Image | Multi-modal |
->>>>>>> 949669622250ed80f1024c6d98a10ec31feb14e8
 | ------------------------- | --------- | ---------- | ----------- |
 | Concatenate               | 0.6975    | 0.6725     | 0.7375      |
 | Multi-head Self-attention | 0.635     | 0.68       | 0.695       |
@@ -70,8 +65,4 @@ The results are shown in this Table(Accuracy):
 
 ## Reference
 
-<<<<<<< HEAD
 `https://github.com/RecklessRonan/GloGNN/blob/master/readme.md`
-=======
-`https://github.com/RecklessRonan/GloGNN/blob/master/readme.md`
->>>>>>> 949669622250ed80f1024c6d98a10ec31feb14e8
