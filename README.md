@@ -42,9 +42,9 @@ We select some important files for detailed description.
 |-- model/
     |-- muti_model.py # the implemented model
     |-- baseline.py # includes all base-model implementations
+|-- README.md
 |-- main.py # the main code
 |-- requirements.txt # dependencies
-|-- README.md
 
 ## Train and Test
 You can simply try to train our model by the script (using default arguments):
