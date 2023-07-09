@@ -58,7 +58,11 @@ python main.py --do_test
 ## Results
 The results are shown in this Table(Accuracy):
 
+<<<<<<< HEAD
 | fuse-Strategy             | Only Text | Only Image | Multi-modal |
+=======
+| fuse-Strategy              | Only Text | Only Image | Multi-modal |
+>>>>>>> 949669622250ed80f1024c6d98a10ec31feb14e8
 | ------------------------- | --------- | ---------- | ----------- |
 | Concatenate               | 0.6975    | 0.6725     | 0.7375      |
 | Multi-head Self-attention | 0.635     | 0.68       | 0.695       |
@@ -66,4 +70,8 @@ The results are shown in this Table(Accuracy):
 
 ## Reference
 
+<<<<<<< HEAD
 `https://github.com/RecklessRonan/GloGNN/blob/master/readme.md`
+=======
+`https://github.com/RecklessRonan/GloGNN/blob/master/readme.md`
+>>>>>>> 949669622250ed80f1024c6d98a10ec31feb14e8
