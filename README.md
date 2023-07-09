@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Repository structure
 
 We select some important files for detailed description.
-
+```
 |-- checkpoints/ # the directory to save checkpoints
 |-- dataset/
     |-- data/ # the original data
@@ -45,7 +45,7 @@ We select some important files for detailed description.
 |-- README.md
 |-- main.py # the main code
 |-- requirements.txt # dependencies
-
+```
 ## Train and Test
 You can simply try to train our model by the script (using default arguments):
 ```shell
