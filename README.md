@@ -4,23 +4,23 @@ This is the official repository of DaSE 2023 AI project Multimodal Sentiment Ana
 ## Setup
 This implemetation is based on Python3. To run the code, you need the following dependencies:
 
-torch==1.12.0
+- torch==1.12.0
 
-torchvision==0.13.0
+- torchvision==0.13.0
 
-transformers==4.20.1
+- transformers==4.20.1
 
-numpy==1.22.3
+- numpy==1.22.3
 
-sklearn==1.1.1
+- sklearn==1.1.1
 
-pandas==1.4.2
+- pandas==1.4.2
 
-chardet==4.0.0
+- chardet==4.0.0
 
-Pillow==9.2.0
+- Pillow==9.2.0
 
-tqdm==4.64.0
+- tqdm==4.64.0
 
 You can simply run
 ```shell
