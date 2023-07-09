@@ -55,7 +55,7 @@ You can simply try to test our model by the script, if you have simply tried in 
 ```shell
 python main.py --do_test
 ```
-Results
+## Results
 The results are shown in this Table(Accuracy):
 
 | fuse-Strategy              | Only Text | Only Image | Multi-modal |
@@ -64,6 +64,6 @@ The results are shown in this Table(Accuracy):
 | Multi-head Self-attention | 0.635     | 0.68       | 0.695       |
 | Transformer Encoder       | 0.6675    | 0.68       | 0.7         |
 
-Reference
+## Reference
 
 `https://github.com/RecklessRonan/GloGNN/blob/master/readme.md`
