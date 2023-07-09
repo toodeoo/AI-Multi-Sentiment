@@ -15,8 +15,9 @@ Pillow==9.2.0
 tqdm==4.64.0
 
 You can simply run
-
-`pip install -r requirements.txt`
+```shell
+pip install -r requirements.txt
+```
 
 ## Repository structure
 
@@ -39,13 +40,13 @@ We select some important files for detailed description.
 
 ## Train and Test
 You can simply try to train our model by the script (using default arguments):
-
-`python main.py --do_train`
-
+```shell
+python main.py --do_train
+```
 You can simply try to test our model by the script, if you have simply tried in Train stage (using default arguments):
-
-`python main.py --do_test`
-
+```shell
+python main.py --do_test
+```
 Results
 The results are shown in this Table(Accuracy):
 
