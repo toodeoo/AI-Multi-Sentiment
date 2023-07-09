@@ -32,7 +32,7 @@ pip install -r requirements.txt
 We select some important files for detailed description.
 
 |-- checkpoints/ # the directory to save checkpoints
-	|-- dataset/
+|-- dataset/
     |-- data/ # the original data
     |-- train.txt # the original data with label
     |-- test_without_label.txt # the original test data without label
